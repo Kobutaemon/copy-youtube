@@ -13,46 +13,5 @@ html {
 
 header {
     height: 10vh;
-    display: grid;
-    grid-template-columns: 5% 10% 60% 10% 15%;
     font-size: 25px;
-    height: 10vh;
-    margin: 0 20px 0 10px;
-}
-
-.logo, .content, .search {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hamberger {
-    grid-column: 1 / 2;
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    grid-column: 2 / 3;
-}
-
-.search {
-    grid-column: 3 / 4;
-}
-
-.content {
-    grid-column: 4 / 5;
-    justify-content: space-around;
-}
-
-.search input{
-    padding: 10px 20px;
-    font-size: 20px;
-    border-radius: 100px;
-    border-color: gray;
-    width: 70%;
-}
-
-.content img {
-    width: 30px;
 }
